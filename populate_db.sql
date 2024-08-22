@@ -30,7 +30,7 @@ VALUES
 ('Whisker Wonderland', 2, '2022-05-15', '2024-05-15'),
 -- Project 3: 6 months duration
 ('Meowgical Moments', 3, '2023-02-01', '2023-07-31'),
--- Project 4: 100 months duration
+-- Project 4: 101 months duration
 ('Pawsitively Adorable Designs', 4, '2015-06-01', '2023-10-01'),
 -- Project 5: 18 months duration
 ('Cattitude Chronicles', 5, '2021-08-01', '2023-02-01'),
@@ -44,7 +44,7 @@ VALUES
 ('Meowsterpiece Gallery', 4, '2023-07-01', '2023-08-31'),
 -- Project 10: 7 months duration
 ('Fur-tastic Finds', 4, '2023-03-01', '2023-09-30'),
--- Project 4: 100 months duration
+-- Project 4: 101 months duration
 ('Cat-astrophic Cuteness', 1, '2015-07-01', '2023-11-01');
 
 INSERT INTO project_worker (project_id, worker_id) VALUES
