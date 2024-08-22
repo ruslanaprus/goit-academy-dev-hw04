@@ -1,3 +1,5 @@
+-- Task 2
+
 INSERT INTO worker (name, birthday, level, salary)
 VALUES 
 ('Alice', '2001-08-20', 'Senior', 100000),
@@ -20,30 +22,30 @@ VALUES
 ('Clawtastic Creations'),
 ('Snack Caterprises');
 
-INSERT INTO project (client_id, start_date, finish_date)
-VALUES 
+INSERT INTO project (name, client_id, start_date, finish_date)
+VALUES
 -- Project 1: 10 months duration
-(1, '2023-01-01', '2023-10-31'), 
+('Purrfectly Crafted', 1, '2023-01-01', '2023-10-31'),
 -- Project 2: 24 months duration
-(2, '2022-05-15', '2024-05-15'), 
+('Whisker Wonderland', 2, '2022-05-15', '2024-05-15'),
 -- Project 3: 6 months duration
-(3, '2023-02-01', '2023-07-31'), 
+('Meowgical Moments', 3, '2023-02-01', '2023-07-31'),
 -- Project 4: 100 months duration
-(4, '2015-06-01', '2023-10-01'), 
+('Pawsitively Adorable Designs', 4, '2015-06-01', '2023-10-01'),
 -- Project 5: 18 months duration
-(5, '2021-08-01', '2023-02-01'), 
+('Cattitude Chronicles', 5, '2021-08-01', '2023-02-01'),
 -- Project 6: 3 months duration
-(3, '2023-06-01', '2023-08-31'), 
+('Feline Fine Art', 3, '2023-06-01', '2023-08-31'),
 -- Project 7: 12 months duration
-(2, '2022-07-01', '2023-06-30'), 
+('The Whisker Whisperer', 2, '2022-07-01', '2023-06-30'),
 -- Project 8: 50 months duration
-(3, '2018-01-01', '2022-02-28'), 
+('Paw Prints & Paintbrushes', 3, '2018-01-01', '2022-02-28'),
 -- Project 9: 2 months duration
-(4, '2023-07-01', '2023-08-31'), 
+('Meowsterpiece Gallery', 4, '2023-07-01', '2023-08-31'),
 -- Project 10: 7 months duration
-(4, '2023-03-01', '2023-09-30'),
+('Fur-tastic Finds', 4, '2023-03-01', '2023-09-30'),
 -- Project 4: 100 months duration
-(1, '2015-07-01', '2023-11-01');
+('Cat-astrophic Cuteness', 1, '2015-07-01', '2023-11-01');
 
 INSERT INTO project_worker (project_id, worker_id) VALUES
 -- Project 1 assignments

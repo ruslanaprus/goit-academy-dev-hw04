@@ -1,3 +1,5 @@
+-- Task 1
+
 CREATE TABLE worker (
 	id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
 	name VARCHAR(1000) NOT NULL CHECK (length(name) BETWEEN 2 AND 1000),
@@ -13,6 +15,7 @@ CREATE TABLE client (
 
 CREATE TABLE project (
 	id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+	name VARCHAR(1000),
 	client_id INTEGER NOT NULL,
 	start_date DATE,
 	finish_date DATE CHECK (finish_date >= start_date),
